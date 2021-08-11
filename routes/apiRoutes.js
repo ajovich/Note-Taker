@@ -18,7 +18,7 @@ module.exports = (app) => {
     });
 
     // DELETE Requests for note with specific id
-    // 'splice' method to delete existing note 
+    // 'splice' method to delete existing note based on specific id
     app.delete('/api/notes/:id', (req, res) => {
         notes.splice(req.params.id, 1);
     });
