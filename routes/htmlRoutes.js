@@ -1,6 +1,7 @@
 // Dependencies
 // Need to include path package to get correct file path for html
 const path = require('path');
+const fs = require('fs');
 
 // Routing
 module.exports = (app) => {
