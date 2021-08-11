@@ -59,14 +59,16 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## Animation
 
-* TBD [Alt](path/path.png)
+* Click https://drive.google.com/file/d/1ySOwl3RDqkfLEWl-cEz5MzgkyQ0bThAf/view to view animation of application
+
+* ![Notes Page Screenshot](public/assets/HerokuNoteTaker.png);
 
 
 ## URL to Deployed Application on Heroku
 
-* TBD
+*  https://blooming-tor-51612.herokuapp.com/
 
 
-## URL to GitHub 
+## URL to GitHub Repository
 
-* TBD
+* https://github.com/ajovich/Note-Taker
