@@ -31,7 +31,6 @@ module.exports = (app) => {
     app.get('/api/notes/:id', (req, res) => {
         res.json(notes[req.params.id]);
         console.log(req.params.id);
-        saveNotes();
     });
 
     // DELETE Requests for note with specific id
