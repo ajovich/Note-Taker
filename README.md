@@ -4,11 +4,11 @@
 
 * This application, which builds upon front-end starter code, is used to write and save notes using an express.js back-end. 
 
+
 ## Goals
 
-* This is my first experience building the back end, connecting to the front end, and deploying the entire application to Heroku.
+* This is my first experience building the back end, connecting to the already existing front end from starter code, and deploying the entire application to Heroku.
 
-* The user 
 
 ## Acceptance Criteria
 
@@ -62,7 +62,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 * TBD [Alt](path/path.png)
 
 
-## URL to Deployed Application
+## URL to Deployed Application on Heroku
 
 * TBD
 
