@@ -2,7 +2,9 @@
 const fs = require('fs');
 const db = require('../db/db.json');
 
-let notes = req.body;
+const data = fs.readFileSync('./db/db.json', 'utf8');
+const notes = JSON.parse(data);
+console.log(notes);
 
 // Function whenever a note is added or deleted
 function saveNotes () {
@@ -21,13 +23,14 @@ module.exports = (app) => {
     // POST Requests
     app.post('/api/notes', (req, res) => {
         notes.push(req.body);
-        db.push(notes);
+        res.json(true);
         saveNotes();
     });
 
     // GET Requests for note with specific id
     app.get('/api/notes/:id', (req, res) => {
         res.json(notes[req.params.id]);
+        console.log(req.params.id);
         saveNotes();
     });
 
